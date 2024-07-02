@@ -1,0 +1,17 @@
+
+
+.oops_container{
+    margin: 2vh auto;
+    text-align: center;
+
+}
+.logo_container{
+    width:50vw;
+    height:30vh;
+    margin:1vh auto;
+}
+
+.oops_logo{
+    max-width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,13 @@
+
+.lines_container{
+    margin:8vh auto;
+}
+
+.lines{
+    height:1.5vh;
+    width:70%;
+    margin: 1vh auto;
+    background-color: rgb(241,241,246);
+    /* background-color: rgb(227, 227, 227); */
+    border-radius: 10px;
+}

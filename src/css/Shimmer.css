@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.shimmer_body{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin:1vh auto;
+    gap: 5vw;
+     
+}
+
+.shimmer-container{
+    width:16vw;
+    height:35vh;
+    border:1px solid black;
+    
+    }
+    
+.shimmer_img{
+    width:16vw;
+    height:26vh;
+    /* background-color: rgb(240, 238, 240); */
+    background-color: rgb(241,241,246);
+    border-radius: 20px;
+}
+    
+.shimmer_lines{
+    width:16vw;
+    height: 1vh;
+    border-radius: 10px;
+    margin-top:1vh;
+    background-color: rgb(241,241,246);
+}
+
+.special_line{
+    width:70%;
+}

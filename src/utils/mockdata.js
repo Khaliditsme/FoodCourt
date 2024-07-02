@@ -1,0 +1,62 @@
+const reslist = [
+  {
+    id: "405798",
+    name: "Chinese Wok",
+    cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
+    locality: "Malleshwaram",
+    areaName: "Malleshwaram",
+    costForTwo: "₹250 for two",
+    cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
+    avgRating: 4.2,
+    parentId: "61955",
+    avgRatingString: "4.2",
+    totalRatingsString: "500+",
+    sla: {
+      deliveryTime: 48,
+      lastMileTravel: 5.5,
+      serviceability: "SERVICEABLE",
+      slaString: "45-50 mins",
+    },
+  },
+  {
+    id: "405798",
+    name: "Taste of Kolkata",
+    cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
+    locality: "Malleshwaram",
+    areaName: "Malleshwaram",
+    costForTwo: "₹250 for two",
+    cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
+    avgRating: 4.6,
+    parentId: "61955",
+    avgRatingString: "4.2",
+    totalRatingsString: "500+",
+    sla: {
+      deliveryTime: 48,
+      lastMileTravel: 5.5,
+      serviceability: "SERVICEABLE",
+      slaString: "45-50 mins",
+    },
+  },
+  {
+    id: "405798",
+    name: " Dominos",
+    cloudinaryImageId: "e0839ff574213e6f35b3899ebf1fc597",
+    locality: "Malleshwaram",
+    areaName: "Malleshwaram",
+    costForTwo: "₹250 for two",
+    cuisines: ["Chinese", "Asian", "Tibetan", "Desserts"],
+    avgRating: 4.5,
+    parentId: "61955",
+    avgRatingString: "4.2",
+    totalRatingsString: "500+",
+    sla: {
+      deliveryTime: 48,
+      lastMileTravel: 5.5,
+      serviceability: "SERVICEABLE",
+      slaString: "45-50 mins",
+    },
+  },
+];
+
+
+export default reslist

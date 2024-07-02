@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.res-card-container :hover{
+    background-color: rgb(235, 239, 243);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+
+.res-cards{
+    width:20vw;
+    height:40vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 0.9vw;
+    /* border: 2px solid black; */
+    
+}
+
+
+
+.res-img-container{
+    height:28vh;
+    width:18vw;
+}
+
+.res-image{
+   height: 100%;
+   width: 100%;
+   border-radius: 20px;
+   /* object-fit: fill; */
+}
+
+.combine{
+    display: flex;
+    flex-direction: row;
+}
+
+.outside{
+    display: flex;
+    flex-direction: column;
+}
+
+.inside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: end;
+}
+
+.content{
+    font-size:1vw;
+}
+
+.left-most{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width:14vw;
+            /* padding: 5px;  */
+            /* Optional: for better visualization */
+}

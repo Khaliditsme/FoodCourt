@@ -1,0 +1,26 @@
+
+.item-category > p {
+  font-size: 1.15rem;
+  margin: 20px 0;
+  font-weight: 600;
+}
+
+.item-category-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  cursor: pointer;
+}
+
+.subheading-text {
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: rgb(2, 2, 78);
+  margin-bottom: 10px;
+}
+
+.section-border {
+  height: 16px;
+  border-bottom: 16px solid #f1f1f6;
+}

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+
+
+.body{
+    padding: 1vh;
+    margin:1vh 1vw;
+}
+
+.body-top{
+    display: flex;
+    flex-direction: row;
+}
+
+.search{
+    padding: 0.5vh;
+    text-align: center;
+    border-radius: 4px;
+    border:0.1vh solid black;
+    margin-left:4vw;
+}
+
+
+
+body button{
+    color:white;
+    background-color: black;
+    padding: 0.5vh;
+    margin-left: 2vh;
+    border-radius: .7vh;
+    cursor: pointer;
+}
+
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap:1.5vh;
+    margin:2vh auto;
+    flex-direction: row;
+}
+

@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25+Charted&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.about_container{
+    margin: 2vh 5vw;
+}
+
+.svg_container{
+    height: 40vh;
+    width: 35vw;
+    margin:2vh 2vw;
+}
+
+.contact_svg_container{
+    height: 40vh;
+    width: 60vw;
+}
+
+.about_svg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.about_container h1{
+    font-weight: 600;
+    font-size: 190%;
+    font-weight: 500;
+    margin-top: 3vh;
+}
+
+.about_container p{
+    font-size: 90%;
+    /* color: rgb(108, 108, 108); */
+    color: rgb(132,131,130);
+    font-weight:400;
+}
+
+
+.error_container{
+    margin: .5h auto;
+    text-align: center;
+    height:80vh;
+}
+
+.error_svg{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.error_top{
+    text-align: center;
+}
+
+.error_inside{
+    display: flex;
+    flex-direction: row;
+    margin: auto 41%;
+}
